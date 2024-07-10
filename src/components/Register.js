@@ -22,7 +22,7 @@ function Register(){
                 </div>
                 <div className='mb-3'>
                     <label htmlFor="">Date of Birth</label>
-                    <input className="form-control " type="date" id="l" placeholder="Last Name" />
+                    <input className="form-control " type="date"/>
                 </div>
                 <label class="form-check-label d-block">Gender</label>
                 <div class="form-check form-check-inline">
