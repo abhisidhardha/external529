@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav h1{
+    padding: 10px;
+    color: white;
+}
+nav li{
+    padding: 20px;
+    color: white;
+}
+nav{
+    background:linear-gradient(135deg,rgba(58,190,249,1),rgb(11, 24, 198));
+}
+.active{
+    color: aqua;
+}
+.outlet{
+    height: 100%;
+}
