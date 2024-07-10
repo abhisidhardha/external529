@@ -6,6 +6,7 @@ const products = [
     image: 'https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70',
     title: 'Apple iPhone 15',
     description: 'Black, 128 GB',
+    price: 799999,
     stock: 'Out Of Stock',
     stockStatus: false
   },
@@ -14,6 +15,7 @@ const products = [
     image: 'https://images-cdn.ubuy.co.in/666e62a4b5dc903d857b1d54-samsung-galaxy-s21-ultra-5g-128gb.jpg',
     title: 'Samsung Galaxy S21 Ultra',
     description: 'Phantom Black, 256GB',
+    price: 129999,
     stock: 'In Stock',
     stockStatus: true
   },
@@ -22,6 +24,7 @@ const products = [
     image: 'https://d2xamzlzrdbdbn.cloudfront.net/products/3879f792-66e0-43ec-adf4-73cbb0bfad64_416x416.jpg',
     title: 'OnePlus 9 Pro',
     description: 'Morning Mist, 128GB',
+    price: 53000,
     stock: 'Out Of Stock',
     stockStatus: false
   },
@@ -30,6 +33,7 @@ const products = [
     image: 'https://m.media-amazon.com/images/I/61oQtjPpM-L._AC_UF1000,1000_QL80_.jpg',
     title: 'Google Pixel 6',
     description: 'Sorta Seafoam, 128GB',
+    price: 65999,
     stock: 'In Stock',
     stockStatus: true
   }
@@ -47,6 +51,7 @@ function Cart() {
           <div className="card-body">
             <h1 className="card-title">{product.title}</h1>
             <p className="card-description fs-5">{product.description}</p>
+            <p className="card-price fs-5">Rs.{product.price}</p>
             <p className={`card-stock ${product.stockStatus ? 'text-success' : 'text-danger'}`}>
               {product.stock}
             </p>
