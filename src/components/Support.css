@@ -1,0 +1,6 @@
+.support{
+    height: 100%;
+    background: rgb(9,18,196);
+    background: linear-gradient(to top right, rgb(50, 9, 196) 0%, rgb(11, 24, 198) 100%);
+    min-height: 100vh;
+}

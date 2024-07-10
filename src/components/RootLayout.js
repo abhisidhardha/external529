@@ -24,6 +24,11 @@ function RootLayout(){
                         Cart
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink className="nav-link" to="support">
+                        Support
+                    </NavLink>
+                </li> 
             </ul>
         </nav>
         <div>

@@ -4,6 +4,7 @@ import Home from "./Home"
 import Register from "./Register"
 import Login from "./Login"
 import Cart from "./Cart"
+import Support from "./Support"
 import "./Root.css"
 import RootLayout from './RootLayout'
 const Root = () => {
@@ -27,6 +28,10 @@ const Root = () => {
                 {
                     path:'cart',
                     element:<Cart/>
+                },
+                {
+                    path:'support',
+                    element:<Support/>
                 }
             ]
         }
