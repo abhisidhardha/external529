@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink,Outlet} from "react-router-dom"
 import "./Login.css"
 function Login() {
   return (
@@ -15,6 +16,8 @@ function Login() {
                 <div className='text-center'>
                     <button type='submit' className='btn btn-success'>Submit</button>
                 </div>
+                <p>NEW ?? <NavLink className="nav-link" to="/register">Register</NavLink></p>
+
             </form>
         </div>
     </div>

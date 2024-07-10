@@ -4,7 +4,7 @@
     gap: 20px;
     padding: 20px;
   }
-.card {
+.cart .card {
     display: flex;
     width: 100%;
     border: 1px solid #ccc;
@@ -14,31 +14,31 @@
     box-shadow: rgba(68, 112, 255, 0.39) 0px 7px 29px 0px;
     border-radius: 10px;
   }
-.card img {
+  .cart .card img {
     display: inline;
     width: 200px;
     height: 200px;
     margin-right: 20px;
     border-radius: 5px;
 }
-.card-body {
+.cart .card-body {
     display: flex;
     flex-direction: column;
 }
-.card-actions {
+.cart .card-actions {
     display: flex;
     gap: 10px;
 }
-.btn {
+.cart .btn {
     padding: 5px 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
 }
-.text-success {
+.cart .text-success {
     color: green;
 }
-.text-danger {
+.cart  .text-danger {
     color: red;
 }
   

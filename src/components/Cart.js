@@ -41,12 +41,13 @@ const products = [
 
 function Cart() {
   return (
-    <div className="container">
+    <div className="cart container">
       {products.map((product) => (
         <div key={product.id} className="card">
           <img
             src={product.image}
             alt={product.title}
+            className='img-fluid'
           />
           <div className="card-body">
             <h1 className="card-title">{product.title}</h1>
