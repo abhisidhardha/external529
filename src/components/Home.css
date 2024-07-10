@@ -1,8 +1,16 @@
 .home{
     height: 100vh;
-    padding: 20px;
     background: url(https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+}
+.home p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.26);
 }
